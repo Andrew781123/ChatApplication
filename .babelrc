@@ -1,0 +1,19 @@
+{
+  //"presets": ["react-native"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "src": "./src",
+          "_atoms": ["src/components/atoms/*"],
+          "_molecules": ["src/components/molecules/*"],
+          "_organisms": ["src/components/organisms/*"],
+          "_navigations": "./src/navigations",
+          "screens": ["src/screens/*"]
+        }
+      }
+    ]
+  ]
+}
